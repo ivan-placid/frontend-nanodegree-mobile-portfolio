@@ -6,7 +6,7 @@
     <meta name="description" content="Me and my cat site">
     <meta name="author" content="Ivan">
     <title>Cameron Pittman: Portfolio</title>
-    <link href="css/smartphones.css" rel="stylesheet" media="(max-width: 480px)">
+    <!-- <link href="css/smartphones.css" rel="stylesheet" media="(max-width: 480px)"> -->
   </head>
   <body>
     <header>
@@ -18,6 +18,43 @@
         header img { float: left; }
         header p { font-size:1.5em; font-weight: bold; padding-left: 4.5em;}
         header p span { font-size: 0.8em; font-weight: normal;}
+        .container { max-width: 45em; margin: 0 auto; }
+        @font-face {
+          font-family: 'Open Sans';
+          font-style: normal;
+          font-weight: 400;
+          src: local('Open Sans'), local('OpenSans'),
+               url('../fonts/open-sans-v13-greek-ext_cyrillic_vietnamese_latin-ext_latin_greek_cyrillic-ext-regular.woff2') format('woff2'),
+        }
+        @font-face {
+          font-family: 'Open Sans';
+          font-style: italic;
+          font-weight: 400;
+          src: local('Open Sans Italic'), local('OpenSans-Italic'),
+               url('../fonts/open-sans-v13-greek-ext_cyrillic_vietnamese_latin-ext_latin_greek_cyrillic-ext-italic.woff2') format('woff2'),
+        }
+        html {font-size:100%;overflow-y:scroll}
+        body{margin:0;font-size:12px;line-height:1.61;font-weight:400;background:#fff}body,textarea{font-family:'Open Sans',sans-serif;color:#333}
+        a { color: #12C; }
+        a:visited { color: #61C; }
+        a:focus { outline: thin dotted; }
+        a:hover, a:active { color: #c00; outline: 0; }
+        strong { font-weight: bold; }
+        ul { margin: 1em 0; padding: 0 0 0 20px; }
+        .hero { padding: 2em; background-color: #f8f8f8; font-size:1.2em;
+          border-bottom: 1px solid #ccc;
+          border-top: 1px solid #ccc;
+        }
+        .content { padding: 1em 1em; }
+        .content li { list-style-type: none; font-size: 1.1em;}
+        li img { float:left; padding-right: 1em; border: 0; max-width: 100%;}
+        li p { font-size: 0.9em; font-style: italic; }
+        footer {
+          max-width: 45em; margin: 0 auto;
+          padding: 0 0.5em;
+          border-top: 1px solid #ccc;
+        }
+        footer span { float: right; font-style: italic; }
       </style>
     </header>
     <div class="container">
@@ -52,9 +89,7 @@
       <footer>
         <p>&copy; Web Performance 2014 <span id="crp-stats"></span></p>
       </footer>
-      <style>
-        .container { max-width: 45em; margin: 0 auto; }
-      </style>
+
     </div>
   </body>
 
