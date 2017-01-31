@@ -1,18 +1,16 @@
-/* open-sans-regular - greek-ext_cyrillic_vietnamese_latin-ext_latin_greek_cyrillic-ext */
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   src: local('Open Sans'), local('OpenSans'),
-       url('../fonts/open-sans-v13-greek-ext_cyrillic_vietnamese_latin-ext_latin_greek_cyrillic-ext-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/open-sans-v13-greek-ext_cyrillic_vietnamese_latin-ext_latin_greek_cyrillic-ext-regular.woff2') format('woff2'),
 }
-/* open-sans-italic - greek-ext_cyrillic_vietnamese_latin-ext_latin_greek_cyrillic-ext */
 @font-face {
   font-family: 'Open Sans';
   font-style: italic;
   font-weight: 400;
   src: local('Open Sans Italic'), local('OpenSans-Italic'),
-       url('../fonts/open-sans-v13-greek-ext_cyrillic_vietnamese_latin-ext_latin_greek_cyrillic-ext-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/open-sans-v13-greek-ext_cyrillic_vietnamese_latin-ext_latin_greek_cyrillic-ext-italic.woff2') format('woff2'),
 }
 
 
@@ -21,8 +19,7 @@
 html {font-size:100%;overflow-y:scroll}
 
 
-body { margin: 0; font-size: 12px; line-height: 1.61; font-weight: 400; background: #fff;}
-body, textarea { font-family: 'Open Sans', sans-serif; color: #333; }
+body{margin:0;font-size:12px;line-height:1.61;font-weight:400;background:#fff}body,textarea{font-family:'Open Sans',sans-serif;color:#333}
 
 a { color: #12C; }
 a:visited { color: #61C; }
