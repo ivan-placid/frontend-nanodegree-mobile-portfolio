@@ -1,0 +1,131 @@
+.content
+{
+    padding:1em
+}
+
+.content li
+{
+    font-size:1.1em;
+    list-style-type:none
+}
+
+.hero
+{
+    background:#f8f8f8;
+    border-bottom:1px solid #ccc;
+    border-top:1px solid #ccc;
+    font-size:1.2em;
+    padding:2em
+}
+
+a
+{
+    color:#12C
+}
+
+a:focus
+{
+    outline:thin dotted
+}
+
+a:hover,a:active
+{
+    color:#c00;
+    outline:0
+}
+
+a:visited
+{
+    color:#61C
+}
+
+b,strong
+{
+    font-weight:700
+}
+
+body
+{
+    background:#fff;
+    font-size:12px;
+    font-weight:400;
+    line-height:1.61;
+    margin:0
+}
+
+body,button,input,select,textarea
+{
+    color:#333;
+    font-family:'Open Sans', sans-serif
+}
+
+footer
+{
+    border-top:1px solid #ccc;
+    padding:0 .5em
+}
+
+footer span
+{
+    float:right;
+    font-style:italic
+}
+
+header
+{
+    color:#C90B0B;
+    padding:0 .5em
+}
+
+header img
+{
+    float:left
+}
+
+header p
+{
+    font-size:1.5em;
+    font-weight:700;
+    padding-left:4.5em
+}
+
+header p span
+{
+    font-size:.8em;
+    font-weight:400
+}
+
+header,footer,.container
+{
+    margin:0 auto;
+    max-width:45em
+}
+
+html
+{
+    font-size:100%
+}
+
+img
+{
+    border:0;
+    max-width:100%
+}
+
+li img
+{
+    float:left;
+    padding-right:1em
+}
+
+li p
+{
+    font-size:.9em;
+    font-style:italic
+}
+
+ul,ol
+{
+    margin:1em 0;
+    padding:0 0 0 20px
+}
