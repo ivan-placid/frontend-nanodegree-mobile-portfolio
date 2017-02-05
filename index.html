@@ -64,7 +64,9 @@
     if(imgDefer[i].getAttribute('data-src')) {
     imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));
     } } }
-    window.onscroll = init;
+    //window.onscroll = init;
+
+    setTimeout(init(), 500)
   </script>
 
 
